@@ -1,42 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="description" content="saude, fitness">
+    <meta name="author" content="Cynthia Oka">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Health Track</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="images/logo_size.ico">
     <link rel="icon" type="image/x-icon" href="images/logo_size.ico">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+
 </head>
 <body>
-    <hearder>
-        <figure id="logo">
-            <img id="imagem-logo" src="images/logo_HT.jpg" alt="Logo Health Track">
-        </figure>
-        <p>O melhor jeito de acompanhar seu estilo de vida e criar novos hábitos saudáveis.</p>
-    </hearder>
+    <div id="container">
+        <hearder>
+            <figure id="logo">
+                <img id="imagem-logo" src="images/logo_HT.jpg" alt="Logo Health Track">
+            </figure>
+            <p>O melhor jeito de acompanhar seu estilo de vida e criar novos hábitos saudáveis.</p>
+        </hearder>
 
-    <form class="form-login" method="POST" id="login">
-        <div class="form-group">
-            <input id="email_acesso" type="text" autofocus="autofocus" class="form-control" placeholder="Email" required>
+        <form class="form-login" method="POST" id="login">
+            <div class="form-group">
+                <input id="email_acesso" type="text" autofocus="autofocus" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <input id="senha_acesso" type="password" class="form-control" placeholder="Senha" maxlength="8" required>
+            </div>
+        </form>
+        <div>
+            <p>Esqueceu sua senha? Clique aqui para recuperar.</p>
+            <p>Ainda não faz parte do nosso time? <a href="cadastro.html">Cadastre-se.</a></p>
         </div>
-        <div class="form-group">
-            <input id="senha_acesso" type="password" class="form-control" placeholder="Senha" maxlength="8" required>
-        </div>
-    </form>
-    <div>
-        <p>Esqueceu sua senha? Clique aqui para recuperar.</p>
-        <p>Ainda não faz parte do nosso time? <a href="cadastro.html">Cadastre-se.</a></p>
-    </div>
-    <!--<button class="btn btn-success" onclick="">LOGIN</button>-->
-    <a class="btn btn-success" href="home.html">LOGIN</a>
+        <!--<button class="btn btn-success" onclick="">LOGIN</button>-->
+        <a type="button" class="btn btn-danger" href="home.html">LOGIN</a>
 
-    <footer>
-        <hr>
-        &copy; Desenvolvido por Cynthia Oka 2020
-    </footer>
+        <footer>
+            <hr>
+            &copy; Desenvolvido por Cynthia Oka 2020
+        </footer>
+        <script src="bootstrap/bootstrap-4.5.0-dist/js/jquery-migrate-1.4.1.min.js"></script>
+        <script src="bootstrap/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+</div>
 </body>
 </html>
