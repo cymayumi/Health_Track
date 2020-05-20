@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Track</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo_size.ico"/>
+    <link rel="icon" type="image/x-icon" href="images/logo_size.ico"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+    <hearder>
+        <figure id="logo">
+            <img id="imagem-logo" src="images/logo_HT.jpg" alt="Logo Health Track">
+        </figure>
+        <p>O melhor jeito de acompanhar seu estilo de vida e criar novos hábitos saudáveis.</p>
+    </hearder>
+
+    <form class="main-form" method="post">
+    <fieldset class="form-group">
+        <legend>Informações Pessoais</legend>
+        <div class="form-group">
+            <label class="textlabel">Nome Completo</label>
+            <input id="nomeInput" name="nome" type="text" autofocus="autofocus" class="form-control" maxlength="70" required="required" />
+        </div>
+        <div class="form-group">
+            <label class="textlabel">Data de nascimento</label>
+            <input id="dataInput" name="data" type="date" class="form-control" />
+        </div>
+
+        <div class="form-row">
+            <div class="col">
+                <label class="textlabel">Selecione seu genero</label>
+                    <select id="genero" class="custom-select">
+                        <option label="Feminino" value="fem"></option>
+                        <option label="Masculino" value="masc"></option>
+                        <option label="Prefiro não responder" value="sem_resposta"></option>
+                    </select>
+            </div>
+            <div class="col">
+                <label class="textlabel">Altura (em metros)</label>
+                <input id="alturaInput" name="altura" type="number" class="form-control" />
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="form-group">
+        <legend>Informações de Acesso</legend>
+        <div class="form-group">
+            <label class="textlabel">E-mail</label>
+            <input id="emailInput" name="email" type="email" class="form-control" required="required"/>
+            <small id="emailHelp" class="form-text text-muted">Nunca iremos compartilhar seu e-mail com ninguém.</small>
+        </div>
+        <div class="form-group">
+            <label class="textlabel">Senha (sua senha deve possuir 8 caracteres com letras e números)</label>
+            <input id="senhaInput" name="senha" type="password" class="form-control" required="required"/>
+        </div>
+        <div class="form-group">
+            <p>Digite sua senha novamente para confirmação.</p>
+            <input id="senha_confirma_Input" name="senha_confirma" type="password" class="form-control" required="required"/>
+        </div>
+    </fieldset>
+    </form>
+        <br><br><br><br>
+    <div class="centraliza-button">
+        <!--<input type="submit" class="btn btn-success" value="Finalizar Cadastro" />-->
+        <a class="btn btn-success" href="home.html">CADASTRAR</a>
+    </div>
+
+    <footer>
+        <hr>
+        &copy; Desenvolvido por Cynthia Oka 2020
+    </footer>
+</body>
+</html>
