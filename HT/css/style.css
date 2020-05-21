@@ -1,7 +1,5 @@
-
-#imagem-logo {
-    display: block;
-    margin: 0 auto;
+#logo {
+    text-align: center;
 }
 
 #frase {
@@ -11,6 +9,14 @@
     text-align: center;
 }
 
+.form-login {
+    margin-top: 100px;
+    width: 400px;
+    text-align: center;
+    background-color: darkgreen;
+}
+
 #texto-login {
     text-align: center;
 }
+
