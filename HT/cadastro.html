@@ -18,67 +18,70 @@
 
 </head>
 <body>
-    <hearder>
-        <figure id="logo">
-            <img id="imagem-logo" src="images/logo_HT.jpg" alt="Logo Health Track">
-        </figure>
-        <h1 id="frase">A melhor maneira de acompanhar seu estilo de vida e criar novos hábitos saudáveis</h1>
-    </hearder>
+    <div class="container-fluid">
+        <hearder>
+            <div id="logo">
+                <img src="images/logo_HT.jpg" alt="Logo Health Track">
+            </div>
+            <h1 id="frase">A melhor maneira de acompanhar seu estilo de vida e criar novos hábitos saudáveis</h1>
+        </hearder>
 
-    <form class="main-form" method="post" id="formulario_cadastro">
-    <fieldset class="form-group">
-        <legend>Informações Pessoais</legend>
-        <div class="form-group">
-            <label class="textlabel">Nome Completo</label>
-            <input id="nomeInput" name="nome" type="text" autofocus="autofocus" class="form-control" maxlength="70" required>
-        </div>
-        <div class="form-group">
-            <label class="textlabel">Data de nascimento</label>
-            <input id="dataInput" name="data" type="date" class="form-control" required>
-        </div>
+        <form class="main-form" method="post" id="formulario_cadastro">
+            <fieldset class="form-group">
+                <legend>Informações Pessoais</legend>
+                <div class="form-group">
+                    <label class="textlabel">Nome Completo</label>
+                    <input id="nomeInput" name="nome" type="text" autofocus="autofocus" class="form-control" maxlength="70" required>
+                </div>
+                <div class="form-group">
+                    <label class="textlabel">Data de nascimento</label>
+                    <input id="dataInput" name="data" type="date" class="form-control" required>
+                </div>
 
-        <div class="form-group">
-            <label class="textlabel">Selecione seu genero</label><br>
-                <input type="radio" id="masculino" name="genero" value="masculino" checked="checked">
-                    <label for="masculino">Masculino</label><br>
-                <input type="radio" id="feminino" name="genero" value="feminino">
-                    <label for="feminino">Feminino</label><br>
-                <input type="radio" id="outro" name="genero" value="outro">
-                    <label for="outro">Outro</label>
-        </div>
-        <div class="form-group">
-            <label class="textlabel">Altura (em metros)</label>
-            <input id="alturaInput" name="altura" type="number" class="form-control" required>
-        </div>
-    </fieldset>
+                <div class="form-group">
+                    <label class="textlabel">Selecione seu genero</label><br>
+                        <input type="radio" id="masculino" name="genero" value="masculino" checked="checked">
+                            <label for="masculino">Masculino</label><br>
+                        <input type="radio" id="feminino" name="genero" value="feminino">
+                            <label for="feminino">Feminino</label><br>
+                        <input type="radio" id="outro" name="genero" value="outro">
+                            <label for="outro">Outro</label>
+                </div>
+                <div class="form-group">
+                    <label class="textlabel">Altura (em metros)</label>
+                    <input id="alturaInput" name="altura" type="number" class="form-control" required>
+                </div>
+            </fieldset>
 
-    <fieldset class="form-group">
-        <legend>Informações de Acesso</legend>
-        <div class="form-group">
-            <label class="textlabel">E-mail</label>
-            <input id="emailInput" name="email" type="email" class="form-control" required>
-            <small id="emailHelp" class="form-text text-muted">Nunca iremos compartilhar seu e-mail com ninguém.</small>
-        </div>
-        <div class="form-group">
-            <label class="textlabel">Senha (sua senha deve possuir 8 caracteres com letras e números)</label>
-            <input id="senhaInput" name="senha" type="password" class="form-control" maxlength="8" required>
-        </div>
-        <div class="form-group">
-            <p>Digite sua senha novamente para confirmação.</p>
-            <input id="senha_confirma_Input" name="senha_confirma" type="password" class="form-control" maxlength="8" required>
-        </div>
-    </fieldset>
-    </form>
-        <br><br><br><br>
-    <div class="centraliza-button">
-        <!--<input type="submit" class="btn btn-success" value="Finalizar Cadastro" />-->
-        <a type="button" class="btn btn-danger" href="home.html">CADASTRAR</a>
+            <fieldset class="form-group">
+                <legend>Informações de Acesso</legend>
+                <div class="form-group">
+                    <label class="textlabel">E-mail</label>
+                    <input id="emailInput" name="email" type="email" class="form-control" required>
+                    <small id="emailHelp" class="form-text text-muted">Nunca iremos compartilhar seu e-mail com ninguém.</small>
+                </div>
+                <div class="form-group">
+                    <label class="textlabel">Senha (sua senha deve possuir 8 caracteres com letras e números)</label>
+                    <input id="senhaInput" name="senha" type="password" class="form-control" maxlength="8" required>
+                </div>
+                <div class="form-group">
+                    <p>Digite sua senha novamente para confirmação.</p>
+                    <input id="senha_confirma_Input" name="senha_confirma" type="password" class="form-control" maxlength="8" required>
+                </div>
+            </fieldset>
+            <div id="centraliza-button">
+                <!--<input type="submit" class="btn btn-success" value="Finalizar Cadastro" />-->
+                <a type="button" class="btn btn-danger" href="home.html">CADASTRAR</a>
+            </div>
+        </form>
+            <br><br><br><br>
+
+        <footer>
+            <hr>
+            &copy; Desenvolvido por Cynthia Oka 2020
+        </footer>
     </div>
 
-    <footer>
-        <hr>
-        &copy; Desenvolvido por Cynthia Oka 2020
-    </footer>
     <script src="bootstrap/bootstrap-4.5.0-dist/js/jquery-migrate-1.4.1.min.js"></script>
     <script src="bootstrap/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
 </body>
