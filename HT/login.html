@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="description" content="saude, fitness">
+    <meta name="author" content="Cynthia Oka">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Health Track</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo_size.ico">
+    <link rel="icon" type="image/x-icon" href="images/logo_size.ico">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <div id="container-fluid">
+
+        
+            <hearder>
+                <figure id="logo">
+                    <img id="imagem-logo" src="images/logo_HT.jpg" alt="Logo Health Track">
+                </figure>
+                <h1 id="frase">A melhor maneira de acompanhar seu estilo de vida e criar novos hábitos saudáveis</h1>
+            </hearder>
+        
+
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <form class="form-login" method="POST" id="login"></form>
+                        <div class="form-group">
+                            <input id="email_acesso" type="text" autofocus="autofocus" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input id="senha_acesso" type="password" class="form-control" placeholder="Senha" maxlength="8" required>
+                        </div>
+                    </form>
+                    <div id="texto-login">
+                        <p>Esqueceu sua senha? Clique aqui para recuperar.</p>
+                        <p>Ainda não faz parte do nosso time? <a href="cadastro.html">Cadastre-se.</a></p>
+                        <!--<button class="btn btn-success" onclick="">LOGIN</button>-->
+                        <a type="button" class="btn btn-danger" href="home.html">LOGIN</a>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+
+            <footer>
+                <hr>
+                &copy; Desenvolvido por Cynthia Oka 2020
+            </footer>
+        
+    </div>
+
+    <script src="bootstrap/bootstrap-4.5.0-dist/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="bootstrap/bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
