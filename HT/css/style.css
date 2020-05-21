@@ -11,7 +11,7 @@
 
 .form-login {
     margin-top: 90px;
-    width: 400px;
+    max-width: 370px;
     text-align: center;
 }
 
@@ -70,8 +70,8 @@
     text-align: center;
     padding: 10px;
     margin: 15px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 
