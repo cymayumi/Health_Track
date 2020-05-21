@@ -1,6 +1,12 @@
 
 #imagem-logo {
-    height: auto;
-    max-width: 500px;
+    display: block;
+    margin: 0 auto;
 }
 
+#frase {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: rgb(4, 4, 105);
+    text-align: center;
+}
