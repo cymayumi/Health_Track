@@ -15,7 +15,6 @@
     text-align: center;
 }
 
-
 #texto-login {
     text-align: center;
     margin-top: 50px;
@@ -33,23 +32,18 @@
     margin-top: 12px;
 }
 
-.navbar-custom { 
-    background-color: rgb(20, 5, 102); 
+.navbar-dark { 
+    background-color: rgb(20, 5, 102);
 } 
 
-    
-.navbar-brand { 
+/* .navbar-brand { 
     color: rgb(240, 173, 78); 
 }
 
-.nav-link{
-    color:  rgb(255, 255, 255);;
-}
-
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
-    color: rgb(240, 173, 78);
-}
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item:hover .nav-link {
+        color: rgb(240, 173, 78);
+    }*/
 
 #peso-dash {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -76,5 +70,8 @@
     text-align: center;
     padding: 10px;
     margin: 15px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
+
 
