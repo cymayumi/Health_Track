@@ -15,15 +15,66 @@
     text-align: center;
 }
 
+
 #texto-login {
     text-align: center;
     margin-top: 50px;
 }
 
-#centraliza-button{
+#centraliza-button {
     text-align: center;
 }
 
-#escolhe-genero{
+#escolhe-genero {
     margin-left: 50px;
 }
+
+#ajuste-nav {
+    margin-top: 12px;
+}
+
+.navbar-custom { 
+    background-color: rgb(20, 5, 102); 
+} 
+
+    
+.navbar-brand { 
+    color: rgb(240, 173, 78); 
+}
+
+.nav-link{
+    color:  rgb(255, 255, 255);;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: rgb(240, 173, 78);
+}
+
+#peso-dash {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    color: rgb(217, 83, 79);
+    text-align: center;
+}
+
+#texto-peso-dash{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(217, 83, 79);
+    text-align: center;
+}
+
+#conjunto-peso-dash{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.estatistica-dash {
+    background-color: rgb(240, 173, 78);
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+
