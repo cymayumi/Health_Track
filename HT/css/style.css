@@ -80,3 +80,16 @@
     max-width: 350px;
 }
 
+.row {
+    padding: 15px;
+}
+
+.add-ref {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
