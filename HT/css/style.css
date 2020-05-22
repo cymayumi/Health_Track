@@ -74,7 +74,7 @@
 
 #texto-peso-dash{
     color: #FFFFFF;
-    text-shadow: 4px 3px 0px #7A7A7A;
+    text-shadow: 3px 1px 0px #7A7A7A;
     font-size: 27px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -100,12 +100,12 @@
 }
 
 #circulo{
-    background:rgba(0, 128, 96, 0.781);
+    background:rgb(0, 102, 77);
     border-radius: 50%;
     width: 300px;
     height: 300px;
     margin: 25px;
-    box-shadow: 5px 5px 50px -5px rgb(0, 51, 38);  
+    border: 10px dotted rgb(0, 51, 38); 
 }
 
 .estatistica-dash {
