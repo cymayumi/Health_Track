@@ -1,3 +1,4 @@
+/*style logo (head)*/
 #logo {
     text-align: center;
 }
@@ -9,6 +10,8 @@
     text-align: center;
 }
 
+
+/*style login*/
 .form-login {
     margin-top: 90px;
     max-width: 360px;
@@ -20,6 +23,8 @@
     margin-top: 50px;
 }
 
+
+/*style ficha cadastro*/
 .main-form {
     margin: 75px;
 }
@@ -31,9 +36,8 @@
     margin-left: 50px;
 }
 
-.fas {
-    padding: 7px;
-}
+
+/*style navbar*/
 .navbar-nav > li{
     padding-left:20px;
     padding-right:20px;
@@ -43,9 +47,25 @@
     background-color: rgb(5, 31, 102);
 } 
 
+
+/*style tabelas*/
+.fas {
+    padding: 7px;
+}
+
+.row {
+    padding: 15px;
+}
+
+.table-wrap{
+    overflow-x: auto;
+}
+
+
+/*style dashboard*/
 #peso-dash {
     color: #FFFFFF;
-text-shadow: 4px 3px 0px #7A7A7A;
+    text-shadow: 4px 3px 0px #7A7A7A;
     font-size: 70px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -70,8 +90,6 @@ text-shadow: 4px 3px 0px #7A7A7A;
 }
 
 #conjunto-peso-dash{
-    /*margin-top: 30px;
-    margin-bottom: 70px;*/
     width: 100%;
     height: auto;
     display: flex;
@@ -101,10 +119,8 @@ text-shadow: 4px 3px 0px #7A7A7A;
     max-width: 350px;
 }
 
-.row {
-    padding: 15px;
-}
 
+/*style botão fixo*/
 .add-ref {
     position: fixed;
     left: 0;
@@ -113,8 +129,4 @@ text-shadow: 4px 3px 0px #7A7A7A;
     background-color: rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
-}
-
-.table-wrap{
-    overflow-x: auto;
 }
