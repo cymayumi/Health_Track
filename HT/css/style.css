@@ -3,9 +3,9 @@
 }
 
 #frase {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
-    color: rgb(4, 4, 105);
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(5, 31, 102);
     text-align: center;
 }
 
@@ -20,6 +20,9 @@
     margin-top: 50px;
 }
 
+.main-form {
+    margin: 75px;
+}
 #centraliza-button {
     text-align: center;
 }
@@ -28,12 +31,16 @@
     margin-left: 50px;
 }
 
-#ajuste-nav {
-    margin-top: 12px;
+.fas {
+    padding: 7px;
 }
+.navbar-nav > li{
+    padding-left:20px;
+    padding-right:20px;
+  }
 
 .navbar-dark { 
-    background-color: rgb(20, 5, 102);
+    background-color: rgb(5, 31, 102);
 } 
 
 #peso-dash {
@@ -50,6 +57,15 @@
     text-align: center;
 }
 
+.section-estatistica {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
 #conjunto-peso-dash{
     margin-top: 30px;
     margin-bottom: 70px;
@@ -61,8 +77,6 @@
     text-align: center;
     padding: 10px;
     margin: 15px;
-    margin-left: 65px;
-    margin-right: 65px;
+    max-width: 350px;
 }
-
 
