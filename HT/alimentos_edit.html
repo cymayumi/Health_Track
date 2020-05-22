@@ -61,6 +61,33 @@
                 </ul>
             </div>
         </nav>
+
+        <form class="main-form" method="post" id="formulario_edit_ref">
+            <fieldset>
+                <legend>Edite as informações da sua refeição</legend>
+                <div class="form-group">
+                    <label class="textlabel">Tipo de refeição</label>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option value="1">Café da manhã</option>
+                        <option value="2">Lanche</option>
+                        <option value="3">Almoço</option>
+                        <option value="4">Jantar</option>
+                        <option value="5">Ceia</option>
+                      </select>
+                </div>
+                <div class="form-group">
+                    <label class="textlabel">Descrição da refeição</label>
+                    <textarea class="form-control" id="descricao-ref" rows="4"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="textlabel">Calorias ingeridas</label>
+                    <input id="calRefInput" name="calRef" type="number" class="form-control" required>
+                </div>
+            </fieldset>
+        </form>
+        <div class="add-ref">
+            <a type="button" class="btn btn-secondary" href="alimentos_home.html">ADICIONAR REFEIÇÃO</a>
+        </div>
     </div>
 </body>
 </html>
