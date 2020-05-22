@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+    <head>
     
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="description" content="saude, fitness">
-    <meta name="author" content="Cynthia Oka">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Health Track</title>
-
-    <link rel="shortcut icon" type="image/x-icon" href="images/logo_size.ico">
-    <link rel="icon" type="image/x-icon" href="images/logo_size.ico">
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="plugins/fontawesome-free-5.13.0-web/css/all.min.css">
-
-</head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="description" content="saude, fitness">
+        <meta name="author" content="Cynthia Oka">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <title>Health Track</title>
+    
+        <link rel="shortcut icon" type="image/x-icon" href="images/logo_size.ico">
+        <link rel="icon" type="image/x-icon" href="images/logo_size.ico">
+    
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="plugins/fontawesome-free-5.13.0-web/css/all.min.css">
+    
+    </head>
 <body>
     <div class="container-fluid">
-
         <hearder>
             <div id="logo">
                 <img src="images/logo_HT.jpg" alt="Logo Health Track" width="400px">
@@ -35,7 +34,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="dashboard.html"><i class="fas fa-home"></i>Home</a>
                 </li>
                 <li class="nav-item">
@@ -53,7 +52,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="peso_home.html"><i class="fas fa-weight"></i>Peso</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="pressao_home.html"><i class="fas fa-heartbeat"></i>Pressão Arterial</a>
                 </li>
                 <li class="nav-item">
@@ -63,28 +62,22 @@
             </div>
         </nav>
 
-        <section class="section-dash">
-            <div id="conjunto-peso-dash">
-                <p id="peso-dash">1.6 Kg</p>
-                <p id="texto-peso-dash">adquiridos em Maio</p>
-            </div>
-            <div class="section-estatistica">
-                <div class="estatistica-dash">
-                    <p>Tempo de exercício neste mês: 120 minutos</p>
+        <form class="main-form" method="post" id="formulario_edit_ref">
+            <fieldset>
+                <legend>Edite seus valores de pressão arterial</legend>
+                <div class="form-group">
+                    <label class="textlabel">Pressão Sistólica</label>
+                    <input id="pesoInput" name="peso" type="number" class="form-control" required>
                 </div>
-                <div class="estatistica-dash">
-                    <p>Média de atividade por dia: 20 minutos</p>
+                <div class="form-group">
+                    <label class="textlabel">Pressão Diastólica</label>
+                    <input id="pesoInput" name="peso" type="number" class="form-control" required>
                 </div>
-                <div class="estatistica-dash">
-                    <p>Média de calorias diárias: 1425 calorias</p>
-                </div>
-            </div>
-        </section>
-
-        <footer>
-            <hr>
-            &copy; Desenvolvido por Cynthia Oka 2020
-        </footer>
+            </fieldset>
+        </form>
+        <div class="add-ref">
+            <a type="button" class="btn btn-secondary" href="pressao_home.html">ADICIONAR PRESSÃO ARTERIAL</a>
+        </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
