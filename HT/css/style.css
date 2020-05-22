@@ -44,7 +44,8 @@
 } 
 
 #peso-dash {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #FFFFFF;
+text-shadow: 4px 3px 0px #7A7A7A;
     font-size: 70px;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -52,8 +53,9 @@
 }
 
 #texto-peso-dash{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
+    color: #FFFFFF;
+    text-shadow: 4px 3px 0px #7A7A7A;
+    font-size: 27px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
