@@ -46,14 +46,15 @@
 #peso-dash {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 70px;
-    color: rgb(217, 83, 79);
+    color: rgb(255, 255, 255);
     text-align: center;
+    margin-top: 55px;
 }
 
 #texto-peso-dash{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
-    color: rgb(217, 83, 79);
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -67,12 +68,30 @@
 }
 
 #conjunto-peso-dash{
-    margin-top: 30px;
-    margin-bottom: 70px;
+    /*margin-top: 30px;
+    margin-bottom: 70px;*/
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+
+}
+
+#circulo{
+    background:rgba(0, 128, 96, 0.781);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 25px;
+    box-shadow: 5px 5px 50px -5px rgb(0, 51, 38);  
 }
 
 .estatistica-dash {
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(185, 238, 124);
+    box-shadow: 11px 10px 9px -3px rgb(28, 78, 35);
+    border-radius: 10px;
     font-size: 25px;
     text-align: center;
     padding: 10px;
