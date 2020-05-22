@@ -93,3 +93,7 @@
     padding: 10px;
     text-align: center;
 }
+
+.table-wrap{
+    overflow-x: auto;
+}
