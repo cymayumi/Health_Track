@@ -40,10 +40,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="cadastro.html"><i class="fas fa-user-cog"></i>Perfil</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="alimentos_home.html"><i class="fas fa-utensils"></i>Alimentação</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="exercicios_home.html"><i class="fas fa-running"></i>Exercícios Físicos</a>
                 </li>
                 <li class="nav-item">
@@ -61,33 +61,50 @@
                 </ul>
             </div>
         </nav>
-
-        <form class="main-form" method="post" id="formulario_edit_ref">
-            <fieldset>
-                <legend>Edite as informações da sua refeição</legend>
-                <div class="form-group">
-                    <label class="textlabel">Tipo de refeição</label>
-                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                        <option value="1">Café da manhã</option>
-                        <option value="2">Lanche</option>
-                        <option value="3">Almoço</option>
-                        <option value="4">Jantar</option>
-                        <option value="5">Ceia</option>
-                      </select>
+        <div class="container">
+            <div class="row" id="item-list">
+                <div class="col-2">
+                    22/05/2020
                 </div>
-                <div class="form-group">
-                    <label class="textlabel">Descrição da refeição</label>
-                    <textarea class="form-control" id="descricao-ref" rows="4"></textarea>
+                <div class="col-2">
+                    Caminhada
                 </div>
-                <div class="form-group">
-                    <label class="textlabel">Calorias ingeridas</label>
-                    <input id="calRefInput" name="calRef" type="number" class="form-control" required>
+                <div class="col-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fugit aut architecto id impedit, mollitia illo tempore, eum, explicabo error ullam natus voluptates modi provident sunt sit quas ex officia.
                 </div>
-            </fieldset>
-        </form>
+                <div class="col-2">
+                    320kcal
+                </div>
+                <div class="col-2">
+                    <a class="icon-edit-ref" href="exercicios_edit.html"><i class="far fa-edit"></i></a>
+                </div>
+            </div>
+            <div class="row" id="item-list">
+                <div class="col-2">
+                    22/05/2020
+                </div>
+                <div class="col-2">
+                    Musculação
+                </div>
+                <div class="col-4">
+                    Treino de pernas 30 minutos.
+                </div>
+                <div class="col-2">
+                    225kcal
+                </div>
+                <div class="col-2">
+                    <a class="icon-edit-ref" href="exercicios_edit.html"><i class="far fa-edit"></i></a>
+                </div>
+            </div>
+        </div>
         <div class="add-ref">
-            <a type="button" class="btn btn-secondary" href="alimentos_home.html">ADICIONAR REFEIÇÃO</a>
+            <a type="button" class="btn btn-secondary" href="exercicios_edit.html">ADICIONAR ATIVIDADE FÍSICA</a>
         </div>
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

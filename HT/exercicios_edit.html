@@ -40,10 +40,10 @@
                 <li class="nav-item">
                     <a class="nav-link" href="cadastro.html"><i class="fas fa-user-cog"></i>Perfil</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="alimentos_home.html"><i class="fas fa-utensils"></i>Alimentação</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="exercicios_home.html"><i class="fas fa-running"></i>Exercícios Físicos</a>
                 </li>
                 <li class="nav-item">
@@ -64,29 +64,31 @@
 
         <form class="main-form" method="post" id="formulario_edit_ref">
             <fieldset>
-                <legend>Edite as informações da sua refeição</legend>
+                <legend>Edite as informações da sua atividade física</legend>
                 <div class="form-group">
-                    <label class="textlabel">Tipo de refeição</label>
+                    <label class="textlabel">Tipo de atividade realizada</label>
                     <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                        <option value="1">Café da manhã</option>
-                        <option value="2">Lanche</option>
-                        <option value="3">Almoço</option>
-                        <option value="4">Jantar</option>
-                        <option value="5">Ceia</option>
+                        <option value="1">Cardio</option>
+                        <option value="2">Musculação</option>
+                        <option value="3">Bike</option>
+                        <option value="4">Corrida</option>
+                        <option value="5">Pilates</option>
+                        <option value="6">Yoga</option>
+                        <option value="7">Natação</option>
                       </select>
                 </div>
                 <div class="form-group">
-                    <label class="textlabel">Descrição da refeição</label>
-                    <textarea class="form-control" id="descricao-ref" rows="4"></textarea>
+                    <label class="textlabel">Descrição da atividade realizada</label>
+                    <textarea class="form-control" id="descricao-atv" rows="4"></textarea>
                 </div>
                 <div class="form-group">
-                    <label class="textlabel">Calorias ingeridas</label>
-                    <input id="calRefInput" name="calRef" type="number" class="form-control" required>
+                    <label class="textlabel">Calorias gastas</label>
+                    <input id="calAtvInput" name="calAtv" type="number" class="form-control" required>
                 </div>
             </fieldset>
         </form>
         <div class="add-ref">
-            <a type="button" class="btn btn-secondary" href="alimentos_home.html">ADICIONAR REFEIÇÃO</a>
+            <a type="button" class="btn btn-secondary" href="exercicios_home.html">ADICIONAR ATIVIDADE FÍSICA</a>
         </div>
     </div>
 </body>
