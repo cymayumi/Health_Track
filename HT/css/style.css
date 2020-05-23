@@ -6,8 +6,9 @@
 #frase {
     font-weight: bolder;
     font-size: 25px;
-    color: rgb(5, 31, 102);
+    color: #002b80;
     text-align: center;
+    text-shadow: 2px 2px 0px rgba(55, 133, 206, 0.25)
 }
 
 
@@ -64,7 +65,6 @@
 
 /*style dashboard*/
 #peso-dash {
-    color: #FFFFFF;
     text-shadow: 4px 3px 0px #7A7A7A;
     font-size: 70px;
     color: rgb(255, 255, 255);
@@ -73,7 +73,6 @@
 }
 
 #texto-peso-dash{
-    color: #FFFFFF;
     text-shadow: 3px 1px 0px #7A7A7A;
     font-size: 27px;
     color: rgb(255, 255, 255);
@@ -109,8 +108,8 @@
 }
 
 .estatistica-dash {
-    background-color: rgb(185, 238, 124);
-    box-shadow: 11px 10px 9px -3px rgb(28, 78, 35);
+    background-color: rgb(127, 191, 211);
+    box-shadow: 11px 10px 9px -3px rgb(53, 86, 116);
     border-radius: 10px;
     font-size: 25px;
     text-align: center;
@@ -128,5 +127,18 @@
     width: 100%;
     background-color: rgb(255, 255, 255);
     padding: 10px;
+    text-align: center;
+}
+
+
+/*style logout*/
+#frase-logout {
+    text-align: center;
+    font-size: 27px;
+    color: rgb(0, 133, 29);
+    margin-top: 100px;
+}
+
+#log-again {
     text-align: center;
 }
