@@ -18,15 +18,15 @@
 
 </head>
 <body>
-    <div class="container-fluid">
-        <hearder>
-            <div id="logo">
-                <img src="images/logo_HT.png" alt="Logo Health Track" width="400px">
-            </div>
-            <h1 id="frase">Acompanhe seu estilo de vida e crie hábitos saudáveis</h1>
-        </hearder>
-        <hr>
-        <form class="main-form" method="post" id="formulario_cadastro">
+    <hearder>
+        <div id="logo">
+            <img src="images/logo_HT.png" alt="Logo Health Track" width="400px">
+        </div>
+        <h1 id="frase">Acompanhe seu estilo de vida e crie hábitos saudáveis</h1>
+    </hearder>
+    <hr>
+    <div class="container-fluid padding">
+        <form class="main-form padding" method="post" id="formulario_cadastro">
             <fieldset class="form-group">
                 <legend>Informações Pessoais</legend>
                 <div class="form-group">
@@ -73,16 +73,21 @@
             </fieldset>
             <div id="centraliza-button">
                 <!--<input type="submit" class="btn btn-success" value="Finalizar Cadastro" />-->
-                <a type="button" class="btn btn-secondary" href="dashboard.html">CADASTRAR</a>
+                <a href="dashboard.html"><button type="button" class="btn btn-primary btn-lg">CADASTRAR</button></a>
             </div>
         </form>
-            <br><br><br><br>
-
-        <footer>
-            <hr>
-            &copy; Desenvolvido por Cynthia Oka 2020
-        </footer>
     </div>
+        <br><br><br><br>
+
+    <footer>
+        <div class="container-fluid text-center">
+            <hr class="my-4">
+            <div class="foot">
+                &copy; Desenvolvido por Cynthia Oka 2020
+            </div>
+        </div>
+    </footer>
+
 
     <script src="plugins/bootstrap/js/jquery-migrate-1.4.1.min.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>

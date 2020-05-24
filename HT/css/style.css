@@ -1,3 +1,15 @@
+
+html,body {
+    height: 100%;
+    width: 100%;
+    color: #222;
+}
+
+.padding{
+    padding: 20px;
+}
+
+
 /*style logo (head)*/
 #logo {
     text-align: center;
@@ -11,24 +23,8 @@
     text-shadow: 2px 2px 0px rgba(55, 133, 206, 0.25)
 }
 
-
-/*style login*/
-.form-login {
-    margin-top: 90px;
-    max-width: 360px;
-    text-align: center;
-}
-
-#texto-login {
-    text-align: center;
-    margin-top: 50px;
-}
-
-
 /*style ficha cadastro*/
-.main-form {
-    margin: 75px;
-}
+
 #centraliza-button {
     text-align: center;
 }
@@ -39,17 +35,26 @@
 
 
 /*style navbar*/
+
+.navbar-light{
+    background-color: white !important;
+    padding: 0px;
+}
+
 .navbar-nav > li{
-    padding-left:20px;
-    padding-right:20px;
-  }
+    padding-left:10px;
+}
 
-.navbar-dark { 
-    background-color: rgb(5, 31, 102);
-} 
-
+.nav-link{
+    font-size: 17px;
+}
 
 /*style tabelas*/
+.topo {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
 .fas {
     padding: 7px;
 }
@@ -64,60 +69,23 @@
 
 
 /*style dashboard*/
-#peso-dash {
-    text-shadow: 4px 3px 0px #7A7A7A;
-    font-size: 70px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin-top: 55px;
+
+.fa-running{
+    color: #2163af;
 }
 
-#texto-peso-dash{
-    text-shadow: 3px 1px 0px #7A7A7A;
-    font-size: 27px;
-    color: rgb(255, 255, 255);
-    text-align: center;
+.fa-utensils{
+    color: #ffcc00;
 }
 
-.section-estatistica {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
+.fa-heartbeat{
+    color: #bb0000;
 }
 
-#conjunto-peso-dash{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-
+.fa-running, .fa-utensils, .fa-heartbeat{
+    font-size: 80px;
+    margin: 20px;
 }
-
-#circulo{
-    background:rgb(0, 102, 77);
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    margin: 25px;
-    border: 10px dotted rgb(0, 51, 38); 
-}
-
-.estatistica-dash {
-    background-color: rgb(127, 191, 211);
-    box-shadow: 11px 10px 9px -3px rgb(53, 86, 116);
-    border-radius: 10px;
-    font-size: 25px;
-    text-align: center;
-    padding: 10px;
-    margin: 15px;
-    max-width: 350px;
-}
-
 
 /*style botão fixo*/
 .add-ref {
@@ -142,3 +110,4 @@
 #log-again {
     text-align: center;
 }
+

@@ -18,7 +18,6 @@
 
 </head>
 <body>
-    <div id="container-fluid">
         <hearder>
             <div id="logo">
                 <img src="images/logo_HT.png" alt="Logo Health Track" width="400px">
@@ -26,11 +25,9 @@
             <h1 id="frase">Acompanhe seu estilo de vida e crie hábitos saudáveis</h1>
         </hearder>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md">
-                    </div>
-                    <div class="col-md">
+            <div class="container-fluid padding">
+                <div class="row justify-content-center">
+                    <div class="col-6 text-center padding">
                         <form class="form-login" method="POST" id="login">
                             <div class="form-group">
                                 <input id="email_acesso" type="text" autofocus="autofocus" class="form-control" placeholder="Email" required>
@@ -38,27 +35,25 @@
                             <div class="form-group">
                                 <input id="senha_acesso" type="password" class="form-control" placeholder="Senha" maxlength="8" required>
                             </div>
-                            <a type="button" class="btn btn-secondary" href="dashboard.html">LOGIN</a>
+                            <a href="dashboard.html"><button type="button" class="btn btn-primary btn-lg">LOGIN</button></a>
                             <!--<button class="btn btn-success" onclick="">LOGIN</button>-->
                         </form>
                     </div>
-                    <div class="col-md">
-                    </div>
+                </div>
+                <div class="text-center padding ">
+                    <p>Esqueceu sua senha? Clique aqui para recuperar.</p>
+                    <p>Ainda não faz parte do nosso time? <a href="cadastro.html">Cadastre-se.</a></p>
                 </div>
             </div>
-
-        <div id="texto-login">
-            <p>Esqueceu sua senha? Clique aqui para recuperar.</p>
-            <p>Ainda não faz parte do nosso time? <a href="cadastro.html">Cadastre-se.</a></p>
-        </div>
-
         <footer>
-            <hr>
-            &copy; Desenvolvido por Cynthia Oka 2020
+            <div class="container-fluid text-center">
+                <hr class="my-4">
+                <div class="foot">
+                    &copy; Desenvolvido por Cynthia Oka 2020
+                </div>
+            </div>
         </footer>
         
-    </div>
-
     <script src="plugins/bootstrap/js/jquery-migrate-1.4.1.min.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 </body>
