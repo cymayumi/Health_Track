@@ -16,15 +16,16 @@ html,body {
 }
 
 #frase {
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 25px;
-    color: #002b80;
+    color: #004680;
     text-align: center;
-    text-shadow: 2px 2px 0px rgba(55, 133, 206, 0.25)
+    letter-spacing: 1px;
+    text-shadow: 1.5px 1.5px 0px #6699ff;
 }
 
-/*style ficha cadastro*/
 
+/*style ficha cadastro*/
 #centraliza-button {
     text-align: center;
 }
@@ -35,7 +36,6 @@ html,body {
 
 
 /*style navbar*/
-
 .navbar-light{
     background-color: white !important;
     padding: 0px;
@@ -49,10 +49,11 @@ html,body {
     font-size: 17px;
 }
 
+
 /*style tabelas*/
 .topo {
-    margin-top: 70px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .fas {
@@ -69,6 +70,15 @@ html,body {
 
 
 /*style dashboard*/
+.jumbotron {
+    padding: 0px;
+    border-radius: 0;
+}
+
+hr.dark{
+    border-top: 1px solid #222;
+    width: 40%;
+}
 
 .fa-running{
     color: #2163af;
@@ -87,6 +97,7 @@ html,body {
     margin: 20px;
 }
 
+
 /*style botão fixo*/
 .add-ref {
     position: fixed;
@@ -101,13 +112,8 @@ html,body {
 
 /*style logout*/
 #frase-logout {
-    text-align: center;
     font-size: 27px;
-    color: rgb(0, 133, 29);
-    margin-top: 100px;
-}
-
-#log-again {
-    text-align: center;
+    color: #222;
+    margin-top: 140px;
 }
 
