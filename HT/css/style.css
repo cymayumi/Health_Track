@@ -88,19 +88,25 @@ hr.dark{
     width: 50%;
 }
 
-.fa-running{
+.fa-clock{
+    font-size: 95px;
+    margin: 20px;
     color: #2163af;
 }
 
-.fa-utensils{
+.fa-ruler{
     color: #ffcc00;
+}
+
+.fa-balance-scale{
+    color: #32c12c;
 }
 
 .fa-heartbeat{
     color: #bb0000;
 }
 
-.fa-running, .fa-utensils, .fa-heartbeat{
+.fa-ruler, .fa-balance-scale, .fa-heartbeat{
     font-size: 80px;
     margin: 20px;
 }
