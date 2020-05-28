@@ -31,11 +31,11 @@
             <fieldset class="form-group">
                 <legend>Informações Pessoais</legend>
                 <div class="form-group">
-                    <label class="textlabel">Nome Completo</label>
+                    <label class="textlabel" for="nomeInput">Nome Completo</label>
                     <input id="nomeInput" name="nome" type="text" autofocus="autofocus" class="form-control" maxlength="70" required>
                 </div>
                 <div class="form-group">
-                    <label class="textlabel">Data de nascimento</label>
+                    <label class="textlabel" for="dataInput">Data de nascimento</label>
                     <input id="dataInput" name="data" type="date" class="form-control" required>
                 </div>
 
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="textlabel">Altura (em metros)</label>
+                    <label class="textlabel" for="alturaInput">Altura (em metros)</label>
                     <input id="alturaInput" name="altura" type="number" class="form-control" required>
                 </div>
             </fieldset>
@@ -59,16 +59,16 @@
             <fieldset class="form-group">
                 <legend>Informações de Acesso</legend>
                 <div class="form-group">
-                    <label class="textlabel">E-mail</label>
+                    <label class="textlabel" for="emailInput">E-mail</label>
                     <input id="emailInput" name="email" type="email" class="form-control" required>
                     <small id="emailHelp" class="form-text text-muted">Nunca iremos compartilhar seu e-mail com ninguém.</small>
                 </div>
                 <div class="form-group">
-                    <label class="textlabel">Senha (sua senha deve possuir 8 caracteres com letras e números)</label>
+                    <label class="textlabel" for="senhaInput">Senha (sua senha deve possuir 8 caracteres com letras e números)</label>
                     <input id="senhaInput" name="senha" type="password" class="form-control" maxlength="8" required>
                 </div>
                 <div class="form-group">
-                    <p>Digite sua senha novamente para confirmação.</p>
+                    <label class="textlabel" for="senha_confirma_Input">Digite sua senha novamente para confirmação.</label>
                     <input id="senha_confirma_Input" name="senha_confirma" type="password" class="form-control" maxlength="8" required>
                 </div>
             </fieldset>
