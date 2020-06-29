@@ -28,7 +28,7 @@
     <hr>
     <div class="container-fluid padding">
         <form class="main-form padding" method="post" id="formulario_cadastro">
-            <fieldset class="form-group">
+            
                 <legend>Informações Pessoais</legend>
                 <div class="form-group">
                     <label class="textlabel" for="nomeInput">Nome Completo</label>
@@ -51,12 +51,12 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label class="textlabel" for="alturaInput">Altura (em metros)</label>
-                    <input id="alturaInput" name="altura" type="number" class="form-control" required>
+                    <label class="textlabel" for="alturaInput">Altura (em centímetros)</label>
+                    <input id="alturaInput" name="altura" type="number" min = "100" max = "250" class="form-control" required>
                 </div>
-            </fieldset>
 
-            <fieldset class="form-group">
+            </br></br></br>
+
                 <legend>Informações de Acesso</legend>
                 <div class="form-group">
                     <label class="textlabel" for="emailInput">E-mail</label>
@@ -71,10 +71,8 @@
                     <label class="textlabel" for="senha_confirma_Input">Digite sua senha novamente para confirmação.</label>
                     <input id="senha_confirma_Input" name="senha_confirma" type="password" class="form-control" maxlength="8" required>
                 </div>
-            </fieldset>
             <div class="centraliza-button">
-                <!--<input type="submit" class="btn btn-success" value="Finalizar Cadastro" />-->
-                <a href="dashboard.html"><button type="button" class="btn btn-outline-primary btn-lg">CADASTRAR</button></a>
+                <button type="button" id="btn_cadastrar" class="btn btn-outline-primary btn-lg">CADASTRAR</button>
             </div>
         </form>
     </div>
@@ -89,6 +87,7 @@
         </div>
     </footer>
 
+    <script src="js/validarCadastro.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
