@@ -133,12 +133,10 @@ hr.dark{
 
 
 /*style formulário cadastro*/
-#nomeInput {
+.form-grande {
     max-width: 1000px;
-
 }
 
-#dataInput {
+.form-peq {
     max-width: 200px;
-
 }
