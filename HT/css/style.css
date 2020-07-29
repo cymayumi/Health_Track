@@ -133,8 +133,8 @@ hr.dark{
 
 
 /*style formulário cadastro*/
-.form-grande {
-    max-width: 1000px;
+.padding2 {
+    padding: 60px;
 }
 
 .form-peq {
