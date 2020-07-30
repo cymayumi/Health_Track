@@ -34,6 +34,10 @@ html,body {
     margin-left: 50px;
 }
 
+.form-peq {
+    max-width: 250px;
+}
+
 
 /*style navbar*/
 .navbar-light{
@@ -129,14 +133,4 @@ hr.dark{
     font-size: 27px;
     color: #222;
     margin-top: 120px;
-}
-
-
-/*style formulário cadastro*/
-.padding2 {
-    padding: 60px;
-}
-
-.form-peq {
-    max-width: 200px;
 }
