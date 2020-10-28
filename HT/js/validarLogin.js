@@ -1,12 +1,17 @@
 
 function validar_login(){
-    var senha = document.getElementById("senha_acesso");
+    
+    var email = document.form_login.email.value;
+    var senha = document.form_login.senha.value;
 
-    if(senha.value.length < 8){
-        alert("Sua senha deve conter OITO digitos!");
-    }
-    else{
-        window.open('./dashboard.html');
+    // var email = document.getElementById("email_acesso");
+    //var senha = document.getElementById("senha_acesso");
+
+    if(senha.value.length == "" || email == "") {
+        alert("Digite o seu login!");
+    } else {
+        window.location.href = "./dashboard.html";
+        //window.open('./dashboard.html');
     }
 }
 
@@ -17,5 +22,5 @@ window.onload = function(){
     botao.onclick = function(){
 
         validar_login();
-}
+    }
 }
