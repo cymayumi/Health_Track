@@ -1,17 +1,16 @@
 
 function validar_login(){
     
-    var email = document.form_login.email.value;
-    var senha = document.form_login.senha.value;
+    //var email = document.form_login.email.value;
+    //var senha = document.form_login.senha.value;
 
-    // var email = document.getElementById("email_acesso");
-    //var senha = document.getElementById("senha_acesso");
+    var email = document.getElementById("email_acesso");
+    var senha = document.getElementById("senha_acesso");
 
-    if(senha.value.length == "" || email == "") {
+    if(email.value == "" || senha.value == "") {
         alert("Digite o seu login!");
     } else {
-        window.location.href = "./dashboard.html";
-        //window.open('./dashboard.html');
+        window.open('./dashboard.html');
     }
 }
 

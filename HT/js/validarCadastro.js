@@ -6,11 +6,11 @@ function validar_cadastro(){
     var senha = document.getElementById("senhaInput");
     var confima_senha = document.getElementById("senha_confirma_Input");
 
-    if (nome === ""){
+    if (nome.value == ""){
         alert("Digite seu nome.");
-    } else if (dataNascimento === "") {
+    } else if (dataNascimento.value == "") {
         alert("Cadastre sua data de nascimento.");
-    } else if (email === ""){
+    } else if (email.value == ""){
         alert("Escolha um e-mail para cadastro.");
     } else if (altura.value < 100 || altura.value > 250){
         alert("Digite uma altura válida (centímetros).");
