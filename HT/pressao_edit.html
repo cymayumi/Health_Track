@@ -42,9 +42,6 @@
                 <a class="nav-link" href="exercicios_home.html">Exercícios Físicos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="medidas_home.html">Medidas Corporais</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="peso_home.html">Peso</a>
             </li>
             <li class="nav-item active">
@@ -63,19 +60,24 @@
             <legend>Edite seus valores de pressão arterial</legend>
             <div class="form-group">
                 <label class="textlabel">Pressão Sistólica</label>
-                <input id="pesoInput" name="peso" type="number" class="form-control" required>
+                <input id="sistInput" name="peso" type="number" class="form-control" required>
             </div>
             <div class="form-group">
                 <label class="textlabel">Pressão Diastólica</label>
-                <input id="pesoInput" name="peso" type="number" class="form-control" required>
+                <input id="diastInput" name="peso" type="number" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label class="textlabel" for="dataInput">Data da pressão</label>
+                <input id="dataInput" name="data" type="date" class="form-control form-peq" required>
             </div>
         </fieldset>
     </form>
     <div class="add-ref">
-        <a href="pressao_home.html"><button type="button" class="btn btn-primary btn-lg">ADICIONAR PRESSÃO ARTERIAL</button></a>
+        <button type="button" class="btn btn-primary btn-lg" id="btn_pressao">ADICIONAR PRESSÃO ARTERIAL</button>
     </div>
     </div>
 
+    <script src="js/validarPressao.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
